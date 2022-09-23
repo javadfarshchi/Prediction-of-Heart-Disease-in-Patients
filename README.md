@@ -1,3 +1,3 @@
 # Project Description - Prediction of Heart Disease in Patients
 
-Diagnose the patient and determine if he has heart disease. In that case, two things will be very important:
+Mortalities due to heart diseases are the first cause of death worldwide. Thereby, early diagnosis or prediction of the disease in patients plays an important role in imporving public health and saving lives and families. Analyzing large quantities of data to predecit the disease with machine learning (ML) algortihms have been a challenge and opportunity to reach this goal. In this project, we will try to use multiple data entries from patients to train and test a model that could predict heart diseases, minimizing the false negatives (FNs). Our collective goal is to develop a model that has produces lowest FNs as it would be detrimental for the patients lives.
