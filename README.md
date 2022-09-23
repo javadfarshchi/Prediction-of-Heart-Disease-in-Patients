@@ -1,3 +1,2 @@
-# Prediction-of-Heart-Disease-in-Patients
-Prediction of Heart Disease in Patients
+# Project Description - Prediction of Heart Disease in Patients
 
