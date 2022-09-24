@@ -31,3 +31,72 @@ After performing comprehensive data exploration (found [here](https://github.com
 5. It was observed that most diabetic patients were diagnosed with heart disease that amplifies the importnace of regular checkups of diabetic patinets for heart diseases.
 6. Two of the most important tests to diagnose heart diseases are exerciese tests and maximum heart rates. Most patients with an exercise-induced angina had a heart disease which was also expected. It can also be infered that patients with heart disease could achieve lower maximum heart rate compared to the healthy patients.
 7. The ST/heart rate slope (ST/HR slope), has been proposed as a more accurate ECG criterion for diagnosing significant coronary artery disease (CAD). It was established that having a flat ST Slope is a strong indicator of having a heart disease among patients.
+
+## Logistic Regression Modelling and Evaluation of Model
+As mentioned, in this model we aim to minimize the rate of false negatives. In the modelling steps also found [here](https://github.com/javadfarshchi/Prediction-of-Heart-Disease-in-Patients/blob/main/heart-disease-prediction_LogisticRegression.ipynb), we have converted the categorical data into dummy variables to be used in hte model. Multiple fold values were investigated fo rthe model to obtain the lowest false negative values possible. Below are the results of the model with different fold values:
+
+The fold is : 0 : 
+              precision    recall  f1-score   support
+
+           0       0.82      0.93      0.87        82
+           1       0.93      0.83      0.88       102
+
+    accuracy                           0.88       184
+   macro avg       0.88      0.88      0.87       184
+weighted avg       0.88      0.88      0.88       184
+
+The accuracy for Fold 1 : 0.8800813008130083
+[[76  6]
+ [17 85]]
+The fold is : 1 : 
+              precision    recall  f1-score   support
+
+           0       0.79      0.90      0.84        82
+           1       0.91      0.80      0.85       102
+
+    accuracy                           0.85       184
+   macro avg       0.85      0.85      0.85       184
+weighted avg       0.86      0.85      0.85       184
+
+The accuracy for Fold 2 : 0.8531802965088474
+[[74  8]
+ [20 82]]
+The fold is : 2 : 
+              precision    recall  f1-score   support
+
+           0       0.96      0.65      0.77        82
+           1       0.78      0.98      0.87       102
+
+    accuracy                           0.83       184
+   macro avg       0.87      0.81      0.82       184
+weighted avg       0.86      0.83      0.82       184
+
+The accuracy for Fold 3 : 0.8133668101386896
+[[ 53  29]
+ [  2 100]]
+The fold is : 3 : 
+              precision    recall  f1-score   support
+
+           0       0.88      0.80      0.84        82
+           1       0.85      0.91      0.88       101
+
+    accuracy                           0.86       183
+   macro avg       0.87      0.86      0.86       183
+weighted avg       0.86      0.86      0.86       183
+
+The accuracy for Fold 4 : 0.8578845689446993
+[[66 16]
+ [ 9 92]]
+The fold is : 4 : 
+              precision    recall  f1-score   support
+
+           0       0.69      0.76      0.72        82
+           1       0.78      0.72      0.75       101
+
+    accuracy                           0.74       183
+   macro avg       0.74      0.74      0.74       183
+weighted avg       0.74      0.74      0.74       183
+
+The accuracy for Fold 5 : 0.7394349191016663
+[[62 20]
+ [28 73]]
